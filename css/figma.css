@@ -1,0 +1,34 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+body{
+    background-color: black;
+}
+
+header{
+    background-color: rgb(255, 115, 0);
+    height: 4rem;
+    display: flex;
+}
+
+header div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header nav{
+    display: flex;
+    justify-content: flex-end;
+    height: center;
+    align-items: center;
+}
+
+header ul{
+    list-style: none;
+    display: flex;
+}
