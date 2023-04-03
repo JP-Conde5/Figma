@@ -1,34 +1,86 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     outline: 0;
-}
-
-body{
-    background-color: black;
-}
-
-header{
-    background-color: rgb(255, 115, 0);
-    height: 4rem;
+ }
+ 
+ 
+ :root{
+    --p: rgb(255, 115, 0);
+    --s: rgb(51, 50, 49);
+    --t: black;
+ }
+ 
+ 
+ body {
+    background-color: var(--t);
+ }
+ 
+ 
+ header {
+    background-color: var(--p);
+    height: 4.5rem;
     display: flex;
-}
-
-header div{
+ }
+ 
+ 
+ header div {
     display: flex;
     align-items: center;
+    width: 100%;
     justify-content: center;
-}
-
-header nav{
-    display: flex;
-    justify-content: flex-end;
-    height: center;
-    align-items: center;
-}
-
-header ul{
+ }   
+ 
+ 
+ header div h1{
+    font-size: 200%;
+ }
+ 
+ 
+ header div img{
+    width: 4%;
+ }
+   
+ header nav ul{
     list-style: none;
     display: flex;
+    align-items: center;
+    justify-content: right;
+    height: 100%;
+ }
+ 
+ 
+ header nav ul li{
+    padding: 1%;
+    display: flex;
+    align-items: center;
+    height: 100%;
+ }
+ 
+ 
+ header nav ul li img{
+    width: 16%;
+ }   
+ 
+main{
+    min-height: calc(100vh - 9rem);
+    display: flex;
+} 
+
+main section.nov{
+    width: 75%;
+    margin: 6.5rem 2rem 2rem 2rem;
+}
+
+footer{
+    background-color: var(--p);
+    height: 4.5rem;
+    display: flex;
+    align-items: center;
+}
+
+footer a img{
+    padding: 1.5rem;
+    height: center;
 }
