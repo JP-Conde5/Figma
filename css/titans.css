@@ -1,0 +1,41 @@
+.selecionado {
+    display: grid;
+    grid-template-columns: 35% 65%;
+    align-items: center;
+    color: #fff;
+    font-size: 30px;
+    list-style: none;
+ }
+ 
+ .selecionado figure {
+    border-right: var(--s) 0.2rem solid;
+    border-radius: 3%;
+    padding: 5%;
+ }
+ 
+ .selecionado section {
+    border-left: var(--s) 0.2rem solid;
+    border-radius: 3%;
+    padding-left: 12%; 
+ }
+ 
+ .selecionado section ul{
+    list-style: none;
+ }
+
+ .selecionado section h2, h3 {
+    color: var(--p);
+
+ }
+ 
+ .selecionado section h2 {
+    line-height: 6rem;
+ }
+ 
+ .selecionado section h3 {
+    margin-top: 1.25rem;
+ }
+ 
+ .selecionado ul li h2 {
+    margin-left: 0.5rem;
+ }

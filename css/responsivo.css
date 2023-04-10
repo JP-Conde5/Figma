@@ -1,0 +1,8 @@
+@media(max-width: 1024px){
+    main > section.nov{
+        width: 100%;;
+    }
+    .selecionado{
+        grid-template-columns: auto;
+    }
+}
